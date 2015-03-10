@@ -8,7 +8,7 @@ this["JST"]["home"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"mai
 },"useData":true});
 this["JST"] = this["JST"] || {};
 this["JST"]["nav"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
-    return "<a class=\"home\" data-name=\"home\" href=\"#\">Home</a>\n<a class=\"products\" data-name=\"products\" href=\"#\"><i style=\"display:none\" class=\"fa fa-spinner fa-spin\"></i>Products</a>\n<a class=\"terms\" data-name=\"terms\" href=\"#\">Terms &amp; Conditions</a>\n";
+    return "<a class=\"home\" data-name=\"home\" href=\"/\">Home</a>\n<a class=\"products\" data-name=\"products\" href=\"/products\"><i style=\"display:none\" class=\"fa fa-spinner fa-spin\"></i>Products</a>\n<a class=\"terms\" data-name=\"terms\" href=\"/terms\">Terms &amp; Conditions</a>\n";
 },"useData":true});
 this["JST"] = this["JST"] || {};
 this["JST"]["product"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
